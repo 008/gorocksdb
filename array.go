@@ -1,12 +1,9 @@
 package gorocksdb
 
-<<<<<<< HEAD
-include "stdlib.h"
 
-=======
-// #include "stdlib.h"
-// #include "rocksdb/c.h"
->>>>>>> parent of 561ff8a (Update array.go)
+#include "stdlib.h"
+#include "rocksdb/c.h"
+
 import "C"
 import (
 	"reflect"
