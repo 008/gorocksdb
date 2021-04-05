@@ -1,6 +1,6 @@
 package gorocksdb
 
-// #include "stdlib.h"
+#include "stdlib.h"
 //
 import "C"
 import (
