@@ -1,6 +1,6 @@
 package gorocksdb
 
-// #include "rocksdb/c.h"
+#include "rocksdb/include/rocksdb/c.h"
 import "C"
 
 // IngestExternalFileOptions represents available options when ingesting external files.

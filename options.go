@@ -1,6 +1,6 @@
 package gorocksdb
 
-// #include "rocksdb/c.h"
+#include "rocksdb/include/rocksdb/c.h"
 // #include "gorocksdb.h"
 import "C"
 import (

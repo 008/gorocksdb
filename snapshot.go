@@ -1,6 +1,6 @@
 package gorocksdb
 
-// #include "rocksdb/c.h"
+#include "rocksdb/include/rocksdb/c.h"
 import "C"
 
 // Snapshot provides a consistent view of read operations in a DB.

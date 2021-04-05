@@ -1,6 +1,6 @@
 package gorocksdb
 
-// #include "rocksdb/c.h"
+#include "rocksdb/include/rocksdb/c.h"
 import "C"
 
 // TransactionOptions represent all of the available options options for

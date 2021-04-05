@@ -1,6 +1,6 @@
 package gorocksdb
 
-// #include "rocksdb/c.h"
+#include "rocksdb/include/rocksdb/c.h"
 import "C"
 
 // UniversalCompactionStopStyle describes a algorithm used to make a
